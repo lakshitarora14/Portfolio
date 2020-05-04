@@ -1,14 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import ContactMe from '../views/ContactMe'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/contact-me',
+    name: 'ContactMe',
+    component: ContactMe
   },
   {
     path: '/about',
@@ -21,7 +27,8 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
-  routes
+  mode: "history",
+  routes,
 })
 
 export default router
