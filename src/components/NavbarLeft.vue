@@ -2,18 +2,19 @@
   <div class="navbar">
     <ul>
       <li><a href="">
-        <i class="fab fa-github"></i>
+        <i class="fab fa-github fa-lg"></i>
       </a></li>
       <li><a href="">
-        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-linkedin-in fa-lg"></i>
       </a></li>
       <li><a href="">
-        <i class="fab fa-instagram"></i>
+        <i class="fab fa-instagram fa-lg"></i>
       </a></li>
       <li><a href="">
-        <i class="fab fa-twitter"></i>
+        <i class="fab fa-twitter fa-lg"></i>
       </a></li>
     </ul>
+    <div class="line"></div>
   </div>
 </template>
 
@@ -24,18 +25,57 @@
 </script>
 
 <style scoped lang="scss">
-  .navbar{
-    margin-top: 100px;
-    background-color: white;
-    height: 100%;
-    width: 50px;
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .line {
+    height: 150px;
+    border-right: 2px solid #8892b0;
+    width: 50%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .navbar {
+    min-height: 100vh;
+    box-sizing: border-box;
+    height: auto;
+    width: 60px;
     float: left;
+    position: relative;
+    padding-left: 20px;
   }
-  i{
-    color: white;
+
+  i {
+    height: 45px;
+    width: 45px;
+    background:transparent;
   }
-  ul{
-    list-style-type:none;
+
+  i:hover {
+    background:transparent;
+    margin-left: 5px;
+    padding-right: 2px;
+    float: left;
+    -webkit-transition: margin 100ms ease-out;
+    -moz-transition: margin 100ms ease-out;
+    -o-transition: margin 100ms ease-out;
+  }
+
+  a {
+    color: #A8B2D1;
+  }
+
+  a:hover {
+    color: #64FFDA;
+  }
+
+  ul {
+    margin-top: 390px;
+    list-style-type: none;
+    padding-left: 50%;
   }
 
 </style>
