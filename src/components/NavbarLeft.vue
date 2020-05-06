@@ -1,16 +1,16 @@
 <template>
   <div class="navbar">
     <ul>
-      <li><a href="">
+      <li><a href="https://github.com/lakshitarora14">
         <i class="fab fa-github fa-lg"></i>
       </a></li>
-      <li><a href="">
+      <li><a href="https://www.linkedin.com/in/lakshitarora/">
         <i class="fab fa-linkedin-in fa-lg"></i>
       </a></li>
-      <li><a href="">
+      <li><a href="https://www.instagram.com/lakshit__arora/">
         <i class="fab fa-instagram fa-lg"></i>
       </a></li>
-      <li><a href="">
+      <li><a href="https://twitter.com/lakshitarora14">
         <i class="fab fa-twitter fa-lg"></i>
       </a></li>
     </ul>
@@ -66,6 +66,7 @@
 
   a {
     color: #A8B2D1;
+    text-decoration: none;
   }
 
   a:hover {

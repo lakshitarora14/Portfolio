@@ -20,9 +20,29 @@
     padding: 0px;
     margin: 0px;
   }
+  a {
+    color: #A8B2D1;
+    text-decoration: none;
+  }
 
+  a:hover {
+    color: #64FFDA;
+  }
+  .email{
+    font-family:"Montserrat";
+    transform: rotate(90deg);
+    font-size: 15px;
+    margin-top: 27vw;
+    margin-left: 2vw;
+  }
+  .email:hover{
+    padding-top: 7px;
+    -webkit-transition: margin 100ms ease-out;
+    -moz-transition: margin 100ms ease-out;
+    -o-transition: margin 100ms ease-out;
+  }
   .line {
-    height: 150px;
+    height: 12vw;
     border-right: 2px solid #8892b0;
     width: 50%;
     z-index: 1;
@@ -32,7 +52,6 @@
 
   .navbar {
     position: relative;
-    border: 2px solid red;
     min-height: 100vh;
     box-sizing: border-box;
     height: auto;

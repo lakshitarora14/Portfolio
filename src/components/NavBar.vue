@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="navbar__name">
       <router-link to="/" class="route">
-        Lakshit Arora
+        LAKSHIT ARORA
       </router-link>
     </div>
     <ul class="navbar__ul">
@@ -46,16 +46,24 @@
     padding-top: 20px;
 
     &__name {
+      font-family:"PT Sans Narrow";
       float: left;
       padding-left: 20px;
       cursor: pointer;
+      &:hover{
+        color: #64FFDA;
+        margin-top: -3px;
+        padding: -1px;
+        -webkit-transition: margin 100ms ease-out;
+        -moz-transition: margin 100ms ease-out;
+        -o-transition: margin 100ms ease-out;
+      }
     }
   }
-  a{
+
+  a {
     color: #CCD6F6;
-  }
-  a:hover{
-    color: #64FFDA;
+    text-decoration: none;
   }
 
   ul {
@@ -74,11 +82,13 @@
     flex: 0 1 auto;
     list-style-type: none;
     visibility: hidden;
+    font-family:"PT Sans Narrow";
   }
-  i:hover{
-    margin-top:-3px;
-    padding:-1px;
-    float:left;
+
+  i:hover {
+    margin-top: -3px;
+    padding: -1px;
+    float: left;
     -webkit-transition: margin 100ms ease-out;
     -moz-transition: margin 100ms ease-out;
     -o-transition: margin 100ms ease-out;
