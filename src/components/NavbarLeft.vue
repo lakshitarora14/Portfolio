@@ -1,16 +1,16 @@
 <template>
   <div class="navbar">
     <ul>
-      <li><a href="https://github.com/lakshitarora14">
+      <li><a href="https://github.com/lakshitarora14" target="_blank">
         <i class="fab fa-github fa-lg"></i>
       </a></li>
-      <li><a href="https://www.linkedin.com/in/lakshitarora/">
+      <li><a href="https://www.linkedin.com/in/lakshitarora/" target="_blank">
         <i class="fab fa-linkedin-in fa-lg"></i>
       </a></li>
-      <li><a href="https://www.instagram.com/lakshit__arora/">
+      <li><a href="https://www.instagram.com/lakshit__arora/" target="_blank">
         <i class="fab fa-instagram fa-lg"></i>
       </a></li>
-      <li><a href="https://twitter.com/lakshitarora14">
+      <li><a href="https://twitter.com/lakshitarora14" target="_blank">
         <i class="fab fa-twitter fa-lg"></i>
       </a></li>
     </ul>

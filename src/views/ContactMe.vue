@@ -6,7 +6,6 @@
     <div class="contact">
       <div class="contact__text">
         <div class="contact__text1">Contact Me</div>
-<!--        <hr class="contact-line">-->
         <div class="contact__text2">Have a question or want to work together?</div>
       </div>
       <div class="contact__form">

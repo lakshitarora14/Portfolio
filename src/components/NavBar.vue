@@ -2,7 +2,8 @@
   <div class="navbar">
     <div class="navbar__name">
       <router-link to="/" class="route">
-        LAKSHIT ARORA
+        <img src="../assets/image.png" class="navbar__logo" height="40px" width="40px">
+        <div class="lakshit">LAKSHIT ARORA</div>
       </router-link>
     </div>
     <ul class="navbar__ul">
@@ -37,7 +38,16 @@
     z-index: 1;
     background-color: #091426;
   }
-
+  .lakshit{
+    margin-left: 5px;
+    display: inline;
+    position: relative;
+    bottom: 1vw;
+    font-size: 18px;
+  }
+  .lakshit:hover{
+    color: #64ffda;
+  }
   .navbar {
     color: #CCD6F6;
     width: 100%;
@@ -46,19 +56,18 @@
     padding-top: 20px;
 
     &__name {
-      font-family:"PT Sans Narrow";
+      font-family: "PT Sans Narrow";
       float: left;
-      padding-left: 20px;
       cursor: pointer;
-      &:hover{
-        color: #64FFDA;
-        margin-top: -3px;
-        padding: -1px;
-        -webkit-transition: margin 100ms ease-out;
-        -moz-transition: margin 100ms ease-out;
-        -o-transition: margin 100ms ease-out;
-      }
+      position: absolute;
+      top: 0.8vw;
+      left: 1vw;
+      display: inline;
     }
+  }
+  img {
+    display: inline;
+    background: transparent;
   }
 
   a {
@@ -82,12 +91,12 @@
     flex: 0 1 auto;
     list-style-type: none;
     visibility: hidden;
-    font-family:"PT Sans Narrow";
+    font-family: "PT Sans Narrow";
   }
 
   i:hover {
     margin-top: -3px;
-    padding: -1px;
+    padding: -2px;
     float: left;
     -webkit-transition: margin 100ms ease-out;
     -moz-transition: margin 100ms ease-out;

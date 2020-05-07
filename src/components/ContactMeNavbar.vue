@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
   <div class="center">Built with <div class="heart"><i class="fas fa-heart"></i></div> and css</div>
-    <div class="right"><a href="https://github.com/lakshitarora14/Portfolio"> Source code</a></div>
+    <div class="right"><a href="https://github.com/lakshitarora14/Portfolio" target="_blank"> Source code</a></div>
   </div>
 </template>
 
