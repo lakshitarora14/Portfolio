@@ -28,55 +28,56 @@
   * {
     padding: 0px;
     margin: 0px;
+    background: transparent;
   }
 
   .line {
-    height: 150px;
+    height: auto;
+    min-height: 12vw;
     border-right: 2px solid #8892b0;
-    width: 50%;
-    bottom: 0;
+    display: inline-block;
     position: absolute;
+    right: 50%;
+    bottom: 0;
   }
 
   .navbar {
-    min-height: 100vh;
-    box-sizing: border-box;
-    height: auto;
-    width: 60px;
-    float: left;
-    position: relative;
-    padding-left: 20px;
+    position: absolute;
+    min-height: 100%;
+    width: 70px;
+    left: 0;
   }
 
   i {
+    position: relative;
     height: 45px;
     width: 45px;
     background:transparent;
-  }
-
-  i:hover {
-    background:transparent;
-    margin-left: 5px;
-    padding-right: 2px;
-    float: left;
-    -webkit-transition: margin 100ms ease-out;
-    -moz-transition: margin 100ms ease-out;
-    -o-transition: margin 100ms ease-out;
   }
 
   a {
     color: #A8B2D1;
     text-decoration: none;
   }
-
-  a:hover {
+  a:hover{
     color: #64FFDA;
   }
 
+  li:hover > li{
+    background:transparent;
+    margin-left: 10px;
+    float: left;
+    -webkit-transition: margin 100ms ease-out;
+    -moz-transition: margin 100ms ease-out;
+    -o-transition: margin 100ms ease-out;
+  }
+
   ul {
-    margin-top: 390px;
     list-style-type: none;
-    padding-left: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 11vw;
+    display: inline;
   }
 
 </style>

@@ -25,13 +25,12 @@
     width: 70%;
     display: inline-block;
     margin: 0 auto;
-    padding-top: 18%;
+    padding-top: 16%;
     padding-left: 10%;
     vertical-align: bottom;
   }
 
   .intro-big {
-    font-family: "Montserrat";
     font-weight: bolder;
     &__one {
       font-family: "Open Sans";

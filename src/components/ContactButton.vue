@@ -1,6 +1,7 @@
 <template>
   <div>
     <br>
+    <br>
     <router-link to="/contact-me" class="route">
       <div class="contact">
         CONTACT ME
@@ -24,10 +25,9 @@
   .contact{
     border: 1px solid #64FFDA;
     color: #64FFDA;
-    height: 35px;
-    width: 150px;
-    margin-left: 15%;
-    display: flex;
+    display: inline;
+    padding: 10px;
+    margin-left: 10%;
     &:hover{
       color: #0a182f;
       background-color: #64FFDA;

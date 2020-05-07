@@ -4,6 +4,7 @@
     <navbar-right></navbar-right>
     <LakshitStatic></LakshitStatic>
     <ContactButton></ContactButton>
+    <ContactMeNavbar></ContactMeNavbar>
   </div>
 </template>
 
@@ -12,11 +13,12 @@
   import NavbarRight from '../components/NavbarRight'
   import LakshitStatic from '../components/LakshitStatic'
   import ContactButton from '../components/ContactButton'
+  import ContactMeNavbar from '../components/ContactMeNavbar'
 
   export default {
     name: 'Home',
     components: {
-      NavbarLeft, NavbarRight,LakshitStatic,ContactButton
+       NavbarRight,LakshitStatic,ContactButton,ContactMeNavbar,NavbarLeft
     }
   }
 </script>

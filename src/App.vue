@@ -16,5 +16,6 @@
   *{
     margin: 0px;
     background-color: #0a182f;
+    font-family: "Montserrat";
   }
 </style>
