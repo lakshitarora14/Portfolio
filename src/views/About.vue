@@ -30,7 +30,7 @@
             <li>NoSQL</li>
           </ul>
           <br><br>
-          Visit my <a href="linkedin.com/in/lakshitarora" target="_blank">linkedin</a>
+          Visit my <a href="https://www.linkedin.com/in/lakshitarora/" target="_blank">linkedin</a>
           profile for more details or just
           <router-link to="/contact-me" class="route"> contact me.</router-link>
         </div>
