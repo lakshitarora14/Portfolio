@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
   <div class="center">Built with <div class="heart"><i class="fas fa-heart"></i></div> and css</div>
-    <div class="right"><a href="https://github.com/lakshitarora14/Portfolio" target="_blank"> Source code</a></div>
+    <div class="right">© 2020 Lakshit Arora</div>
   </div>
 </template>
 
@@ -12,20 +12,16 @@
 </script>
 
 <style scoped lang="scss">
-  a{
-    text-decoration: none;
-    color: #CCD6F6;
-  }
   @keyframes beat{
     to { transform: scale(1.5); }
   }
   *{
     background-color: #091426;
-
+    z-index: 1;
   }
   .center{
     padding-top: 12px;
-    padding-left: 8%;
+    padding-left: 2.6%;
     float: left;
     display: flex;
     vertical-align: middle;
@@ -43,10 +39,11 @@
   }
   }
   .right{
-    float: right;
-    margin-right: 8%;
+    position: absolute;
+    right: 3%;
     cursor: pointer;
-    margin-top: 12px;
+    margin-top: 20px;
+    font-size:12px;
     :hover{
       color: #64FFDA;
     }

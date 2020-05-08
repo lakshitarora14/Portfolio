@@ -11,7 +11,7 @@
         <i class="fas fa-home fa-lg"></i>
         <li>HOME</li>
       </router-link>
-      <router-link to="/" class="route">
+      <router-link to="/about" class="route">
         <i class="fas fa-user fa-lg"></i>
         <li>ABOUT</li>
       </router-link>
@@ -46,7 +46,7 @@
     font-size: 18px;
   }
   .lakshit:hover{
-    color: #64ffda;
+    color: #64FFDA;
   }
   .navbar {
     color: #CCD6F6;

@@ -7,7 +7,7 @@
     </div>
     <div class="intro-small">
       <div class="intro-small-info">
-        I'm a web developer based in Bengaluru, India.<br>
+        I'm a software engineer based in Bengaluru, India.<br>
         I have a passion for web development and love <br> to create for web and mobile devices.
       </div>
     </div>
@@ -40,6 +40,7 @@
 
     &__two {
       font-size: 6vw;
+      display: inline-flex;
       color: #CCD6F6;
       text-decoration: none;
       -webkit-background-clip: text;

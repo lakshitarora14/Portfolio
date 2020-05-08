@@ -35,7 +35,6 @@
   }
 </script>
 <style lang="scss" scoped>
-  $textColor: #CCD6F6;
 
   ::placeholder {
     font-weight: 300;
@@ -115,7 +114,7 @@
     background-color: #021024;
     padding-left: 3%;
     padding-right: 3%;
-    color: $textColor;
+    color: #CCD6F6;
     font-size: 15px;
   }
 
@@ -126,7 +125,7 @@
     background-color: #021024;
     padding-left: 3%;
     padding-right: 3%;
-    color: $textColor;
+    color: #8892b0;
     font-size: 15px;
     padding-top: 1%;
     margin: 3px 0 8px;

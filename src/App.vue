@@ -12,10 +12,11 @@
     }
   }
 </script>
-<style>
+<style lang="scss">
+  $background: #0a182f;
   *{
     margin: 0px;
-    background-color: #0a182f;
+    background-color:$background;
     font-family: "Montserrat";
   }
 </style>
