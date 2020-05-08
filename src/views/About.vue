@@ -66,10 +66,6 @@
     padding: 20px;
   }
 
-  li {
-
-  }
-
   .about {
     color: $textColorDark;
     display: inline-flex;
@@ -114,7 +110,6 @@
       left: 15px;
       top: 15px;
       transition: top, left ease 400ms, 400ms;
-
     }
 
     .lakshit:hover + .outline {
