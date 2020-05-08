@@ -2,7 +2,9 @@
   <div class="navbar">
     <div class="navbar__name">
       <img src="../assets/image.png" class="navbar__logo" height="40px" width="40px">
-      <div class="lakshit">LAKSHIT ARORA</div>
+      <router-link to="/home" class="route">
+        <div class="lakshit">LAKSHIT ARORA</div>
+      </router-link>
     </div>
     <ul class="navbar__ul">
       <router-link to="/home" class="route">
@@ -117,7 +119,7 @@
     top: -5px;
   }
 
-  .router-link-active {
+  .router-link-active{
     color: #64ffda;
   }
 
