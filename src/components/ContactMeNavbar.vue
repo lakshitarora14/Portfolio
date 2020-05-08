@@ -51,7 +51,6 @@
   .right {
     position: absolute;
     right: 3%;
-    cursor: pointer;
     margin-top: 20px;
     font-size: 12px;
 
