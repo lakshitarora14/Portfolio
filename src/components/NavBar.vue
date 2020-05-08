@@ -38,16 +38,19 @@
     z-index: 1;
     background-color: #091426;
   }
-  .lakshit{
+
+  .lakshit {
     margin-left: 5px;
     display: inline;
     position: relative;
     bottom: 1vw;
     font-size: 18px;
   }
-  .lakshit:hover{
+
+  .lakshit:hover {
     color: #64FFDA;
   }
+
   .navbar {
     color: #CCD6F6;
     width: 100%;
@@ -65,6 +68,7 @@
       display: inline;
     }
   }
+
   img {
     display: inline;
     background: transparent;

@@ -1,6 +1,9 @@
 <template>
   <div class="nav">
-  <div class="center">Built with <div class="heart"><i class="fas fa-heart"></i></div> and css</div>
+    <div class="center">Built with
+      <div class="heart"><i class="fas fa-heart"></i></div>
+      and css
+    </div>
     <div class="right">© 2020 Lakshit Arora</div>
   </div>
 </template>
@@ -12,14 +15,18 @@
 </script>
 
 <style scoped lang="scss">
-  @keyframes beat{
-    to { transform: scale(1.5); }
+  @keyframes beat {
+    to {
+      transform: scale(1.5);
+    }
   }
-  *{
+
+  * {
     background-color: #091426;
     z-index: 1;
   }
-  .center{
+
+  .center {
     padding-top: 12px;
     padding-left: 2.6%;
     float: left;
@@ -27,27 +34,32 @@
     vertical-align: middle;
     text-align: center;
   }
-  .heart{
+
+  .heart {
     padding-left: 5px;
     padding-right: 5px;
     color: red;
     cursor: pointer;
-    :hover{
-    background: transparent;
-    animation: beat .25s infinite alternate;
-    transform-origin: center;
+
+    :hover {
+      background: transparent;
+      animation: beat .25s infinite alternate;
+      transform-origin: center;
+    }
   }
-  }
-  .right{
+
+  .right {
     position: absolute;
     right: 3%;
     cursor: pointer;
     margin-top: 20px;
-    font-size:12px;
-    :hover{
+    font-size: 12px;
+
+    :hover {
       color: #64FFDA;
     }
   }
+
   .nav {
     display: table;
     height: 50px;

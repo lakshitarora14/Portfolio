@@ -73,6 +73,7 @@
       float: right;
       display: inline;
       padding: 5px;
+
       &:hover {
         color: #0a182f;
         background-color: #64FFDA;
@@ -89,15 +90,17 @@
       right: 0;
       margin: auto;
     }
-    &__text1{
-        font-weight: bolder;
-        font-size: 3.5vw;
-        padding-bottom: 5px;
-      }
-    &__text2{
+
+    &__text1 {
+      font-weight: bolder;
+      font-size: 3.5vw;
+      padding-bottom: 5px;
+    }
+
+    &__text2 {
       color: #64FFDA;
       font-size: 1.5vw;
-      }
+    }
 
   }
 

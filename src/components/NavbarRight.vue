@@ -21,29 +21,30 @@
     margin: 0px;
     background: transparent;
   }
+
   a {
     color: #A8B2D1;
     text-decoration: none;
+    left: 0;
+    transition: left ease 200ms;
   }
 
   a:hover {
-    color: #64FFDA;
+    position: relative;
+    color: #64ffda;
+    left: -5px;
   }
-  .email{
+
+  .email {
     position: absolute;
     transform: rotate(90deg);
     right: 0;
     bottom: 20vw;
     font-size: 15px;
     margin-right: -5vw;
+
   }
-  .email:hover{
-    padding-top: 7px;
-    padding-left: 7px;
-    -webkit-transition: margin 100ms ease-out;
-    -moz-transition: margin 100ms ease-out;
-    -o-transition: margin 100ms ease-out;
-  }
+
   .line {
     height: auto;
     min-height: 12vw;

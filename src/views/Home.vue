@@ -18,7 +18,7 @@
   export default {
     name: 'Home',
     components: {
-       NavbarRight,LakshitStatic,ContactButton,ContactMeNavbar,NavbarLeft
+      NavbarRight, LakshitStatic, ContactButton, ContactMeNavbar, NavbarLeft
     }
   }
 </script>

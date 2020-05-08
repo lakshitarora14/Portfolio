@@ -52,24 +52,20 @@
     position: relative;
     height: 45px;
     width: 45px;
-    background:transparent;
+    background: transparent;
   }
 
   a {
     color: #A8B2D1;
     text-decoration: none;
-  }
-  a:hover{
-    color: #64FFDA;
+    top: 0;
+    transition: top ease 200ms;
   }
 
-  li:hover > li{
-    background:transparent;
-    margin-left: 10px;
-    float: left;
-    -webkit-transition: margin 100ms ease-out;
-    -moz-transition: margin 100ms ease-out;
-    -o-transition: margin 100ms ease-out;
+  a:hover {
+    position: relative;
+    color: #64ffda;
+    top: -4px;
   }
 
   ul {

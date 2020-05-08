@@ -17,23 +17,26 @@
 </script>
 
 <style scoped lang="scss">
-  *{
+  * {
     font-family: "Montserrat";
     font-weight: 300;
     letter-spacing: 2px;
   }
-  .contact{
+
+  .contact {
     border: 1px solid #64FFDA;
     color: #64FFDA;
     display: inline;
     padding: 10px;
     margin-left: 10%;
-    &:hover{
+
+    &:hover {
       color: #0a182f;
       background-color: #64FFDA;
     }
   }
-  a{
+
+  a {
     text-decoration: none;
   }
 

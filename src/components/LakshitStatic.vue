@@ -32,6 +32,7 @@
 
   .intro-big {
     font-weight: bolder;
+
     &__one {
       font-family: "Open Sans";
       color: #64FFDA;
@@ -53,7 +54,8 @@
       background-size: 100% 200%;
       background-position: 0% 0%;
     }
-    &__two:hover{
+
+    &__two:hover {
       transition: all 2s cubic-bezier(0.000, 0.000, 0.230, 1);
       background-position: 100% 100%;
     }
