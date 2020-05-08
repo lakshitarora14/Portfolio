@@ -36,6 +36,8 @@
         </div>
       </div>
       <div class="about__right">
+        <img src="../assets/profileImage.jpg" class="lakshit" height="300px" width="300px">
+        <div class="outline"></div>
       </div>
     </div>
   </div>
@@ -73,18 +75,52 @@
     display: inline-flex;
     padding: 8%;
     height: 70%;
-    font-size: 18px;
+    font-size: 17px;
 
     &__left {
-      border: 2px solid red;
       width: 50%;
       float: left;
     }
 
     &__right {
-      border: 2px solid yellow;
       width: 50%;
       float: right;
+      display: flex;
+      justify-content: center;
+      vertical-align: center;
+      padding-top: 8vw;
+    }
+
+    .lakshit {
+      cursor: pointer;
+      z-index: 1;
+      position: absolute;
+      outline: 200px solid rgba(50, 180, 149, 0.5);
+      outline-offset: -200px;
+    }
+
+    .lakshit:hover {
+      z-index: 20;
+      outline: 0px;
+      -webkit-filter: grayscale(100%);
+      filter: none;
+    }
+
+    .outline {
+      position: relative;
+      border: 2px solid $lightColor;
+      height: 300px;
+      width: 300px;
+      left: 15px;
+      top: 15px;
+      transition: top, left ease 400ms, 400ms;
+
+    }
+
+    .lakshit:hover + .outline {
+      position: relative;
+      top: 10px;
+      left: 10px;
     }
 
     &__heading {
