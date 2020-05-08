@@ -1,13 +1,11 @@
 <template>
   <div class="navbar">
     <div class="navbar__name">
-      <router-link to="/" class="route">
-        <img src="../assets/image.png" class="navbar__logo" height="40px" width="40px">
-        <div class="lakshit">LAKSHIT ARORA</div>
-      </router-link>
+      <img src="../assets/image.png" class="navbar__logo" height="40px" width="40px">
+      <div class="lakshit">LAKSHIT ARORA</div>
     </div>
     <ul class="navbar__ul">
-      <router-link to="/" class="route">
+      <router-link to="/home" class="route">
         <i class="fas fa-home fa-lg"></i>
         <li>HOME</li>
       </router-link>
@@ -40,15 +38,26 @@
   }
 
   .lakshit {
+    color: #CCD6F6;
     margin-left: 5px;
-    display: inline;
+    display: inline-flex;
     position: relative;
     bottom: 1vw;
     font-size: 18px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(
+            0deg,
+            #64FFDA,
+            #64FFDA 50%,
+            #CCD6F6 10%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
   }
 
   .lakshit:hover {
-    color: #64FFDA;
+    transition: all 1s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 100% 100%;
   }
 
   .navbar {
@@ -61,7 +70,6 @@
     &__name {
       font-family: "PT Sans Narrow";
       float: left;
-      cursor: pointer;
       position: absolute;
       top: 0.8vw;
       left: 1vw;
@@ -87,7 +95,6 @@
     margin: 0;
     float: right;
     padding: 0 30px 0 0;
-    cursor: pointer;
   }
 
   li {
@@ -108,6 +115,10 @@
     position: relative;
     color: #64ffda;
     top: -5px;
+  }
+
+  .router-link-active {
+    color: #64ffda;
   }
 
 </style>
