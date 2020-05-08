@@ -91,21 +91,23 @@
   }
 
   li {
-    display: block;
-    flex: 0 1 auto;
+    display: inline-block;
     list-style-type: none;
     visibility: hidden;
-    font-family: "PT Sans Narrow";
+    justify-content: space-around;
+  }
+
+  i {
+    display: table-cell;
+    top: 0;
+    transition: top ease 200ms;
+
   }
 
   i:hover {
-    margin-top: -3px;
-    padding: -2px;
-    float: left;
-    -webkit-transition: margin 100ms ease-out;
-    -moz-transition: margin 100ms ease-out;
-    -o-transition: margin 100ms ease-out;
-    color: #64FFDA;
+    position: relative;
+    color: #64ffda;
+    top: -5px;
   }
 
 </style>
