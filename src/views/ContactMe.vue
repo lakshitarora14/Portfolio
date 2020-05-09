@@ -99,10 +99,12 @@
     }
 
     &__text1 {
+      position: absolute;
       font-weight: bolder;
       font-size: 3.5vw;
       padding-bottom: 5px;
       display: inline-flex;
+      z-index: 1;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-image: linear-gradient(
@@ -121,6 +123,8 @@
     &__text2 {
       color: #64FFDA;
       font-size: 1.5vw;
+      position: absolute;
+      top: 4.5vw;
     }
 
   }
