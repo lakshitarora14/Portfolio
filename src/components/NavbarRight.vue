@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="email">
       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lakshitarora14@gmail.com" target="_blank">
-        lakshitarora14@gmail.com
+        contact@lakshit.tech
       </a>
     </div>
     <div class="line"></div>
@@ -38,11 +38,11 @@
   .email {
     position: absolute;
     transform: rotate(90deg);
-    right: 0;
-    bottom: 20vw;
+    right: -10px;
+    bottom: 21vw;
     font-size: 15px;
     margin-right: -5vw;
-
+    letter-spacing: 3px;
   }
 
   .line {

@@ -3,18 +3,19 @@
     <NavBar></NavBar>
     <NavbarRight></NavbarRight>
     <NavbarLeft></NavbarLeft>
+    <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
     <div class="contact">
       <div class="contact__text">
         <div class="contact__text1">Contact Me</div>
         <div class="contact__text2">Have a question or want to work together?</div>
       </div>
       <div class="contact__form">
-        <form action="https://mailthis.to/lakshit.contactme" method="POST">
+        <form action="https://mailthis.to/lakshit.contactme" method="POST" target="dummyframe" id="contact-me-form">
           <ul>
-            <li><input type="text" name="name" placeholder="Your name"></li>
-            <li><input type="email" name="email" placeholder="Your Email"></li>
-            <li><textarea type="message" name="message" placeholder="Your Message"></textarea></li>
-            <button type="submit" value="Send" class="contact__button">SUBMIT</button>
+            <li><input type="text" name="name" placeholder="Your name" required></li>
+            <li><input type="email" name="email" placeholder="Your Email" required></li>
+            <li><textarea type="message" name="message" placeholder="Your Message" required></textarea></li>
+            <button type="submit" value="Send" class="contact__button" @click="clear">SUBMIT</button>
           </ul>
         </form>
       </div>
@@ -31,6 +32,12 @@
   export default {
     components: {
       ContactMeNavbar, NavbarLeft, NavbarRight, NavBar
+    },
+    methods:{
+      clear: function(){
+        alert("Thank you for getting in touch!")
+        document.getElementById("contact-me-form").reset();
+      }
     }
   }
 </script>
