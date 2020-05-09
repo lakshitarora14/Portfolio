@@ -102,6 +102,20 @@
       font-weight: bolder;
       font-size: 3.5vw;
       padding-bottom: 5px;
+      display: inline-flex;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(
+              0deg,
+              #64FFDA,
+              #64FFDA 50%,
+              #CCD6F6 10%);
+      background-size: 100% 200%;
+      background-position: 0% 0%;
+    }
+    &__text1:hover {
+      transition: all 2s cubic-bezier(0.000, 0.000, 0.230, 1);
+      background-position: 100% 100%;
     }
 
     &__text2 {
@@ -110,7 +124,6 @@
     }
 
   }
-
   ul {
     list-style-type: none;
     padding-left: 0px;
