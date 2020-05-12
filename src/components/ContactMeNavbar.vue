@@ -4,16 +4,20 @@
       <div class="heart"><i class="fas fa-heart"></i></div>
       and css
     </div>
-    <div class="right">© 2020 Lakshit Arora</div>
+    <div class="right">© {{ year }} Lakshit Arora</div>
   </div>
 </template>
 
 <script>
   export default {
-    name: "ContactMeNavbar.vue"
+    name: "ContactMeNavbar",
+    data() {
+      return {
+        year:new Date().getFullYear(),
+      }
+    },
   }
 </script>
-
 <style scoped lang="scss">
   @keyframes beat {
     to {

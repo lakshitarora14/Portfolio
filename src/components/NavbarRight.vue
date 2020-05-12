@@ -38,7 +38,7 @@
   .email {
     position: absolute;
     transform: rotate(90deg);
-    right: -10px;
+    right: -0.7vw;
     bottom: 21vw;
     font-size: 15px;
     margin-right: -5vw;
