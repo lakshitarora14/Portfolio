@@ -1,8 +1,5 @@
 <template>
   <div>
-    <NavBar></NavBar>
-    <NavbarRight></NavbarRight>
-    <NavbarLeft></NavbarLeft>
     <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
     <div class="contact">
       <div class="contact__text">
@@ -20,18 +17,11 @@
         </form>
       </div>
     </div>
-    <ContactMeNavbar></ContactMeNavbar>
   </div>
 </template>
 <script>
-  import ContactMeNavbar from '../components/ContactMeNavbar'
-  import NavbarLeft from '../components/NavbarLeft'
-  import NavbarRight from '../components/NavbarRight'
-  import NavBar from '../components/NavBar'
-
   export default {
     components: {
-      ContactMeNavbar, NavbarLeft, NavbarRight, NavBar
     },
     methods:{
       clear: function(){

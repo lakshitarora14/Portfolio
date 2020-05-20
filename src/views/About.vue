@@ -1,8 +1,5 @@
 <template>
   <div>
-    <ContactMeNavbar></ContactMeNavbar>
-    <navbar-right></navbar-right>
-    <navbar-left></navbar-left>
     <div class="about">
       <div class="about__left">
         <div class="about__heading">
@@ -45,12 +42,8 @@
 <script>
   export default {
     components: {
-      NavbarRight, NavbarLeft, ContactMeNavbar
     }
   }
-  import NavbarLeft from '../components/NavbarLeft'
-  import NavbarRight from '../components/NavbarRight'
-  import ContactMeNavbar from '../components/ContactMeNavbar'
 </script>
 <style scoped lang="scss">
   @import "../assets/variables";

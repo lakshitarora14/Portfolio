@@ -1,29 +1,25 @@
 <template>
   <div class="navbar">
     <div class="navbar__name">
-      <img src="../assets/image.png" class="navbar__logo" height="40px" width="40px">
+      <img src="../assets/image.png" class="navbar__logo" height="35px" width="35px">
       <router-link to="/home" class="route">
         <div class="lakshit">LAKSHIT ARORA</div>
       </router-link>
     </div>
-    <ul class="navbar__ul">
+    <div class="navbar__buttons">
       <router-link to="/home" class="route">
         <i class="fas fa-home fa-lg"></i>
-        <li>HOME</li>
       </router-link>
       <router-link to="/about" class="route">
         <i class="fas fa-user fa-lg"></i>
-        <li>ABOUT</li>
       </router-link>
       <a href="https://drive.google.com/open?id=1IZNCMK7dCITffbrvi9_s8_6yIUXx4OK7" target="_blank">
         <i class="fas fa-address-card fa-lg"></i>
-        <li>RESUME</li>
       </a>
       <router-link to="/contact-me" class="route">
         <i class="fas fa-envelope fa-lg"></i>
-        <li>CONTACT</li>
       </router-link>
-    </ul>
+    </div>
   </div>
 </template>
 
@@ -66,7 +62,7 @@
     color: #CCD6F6;
     width: 100%;
     position: fixed;
-    height: 38px;
+    height: 32px;
     padding-top: 20px;
 
     &__name {
@@ -76,6 +72,18 @@
       top: 0.8vw;
       left: 1vw;
       display: inline;
+    }
+    &__buttons{
+      display: inline-flex;
+      align-items: stretch;
+      width: 25%;
+      margin: 0;
+      padding: 0px;
+      float: right;
+      justify-content: space-around;
+      @media screen and (max-width: 900px){
+        width: 35%;
+      }
     }
   }
 
@@ -89,28 +97,10 @@
     text-decoration: none;
   }
 
-  ul {
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    width: 22%;
-    margin: 0;
-    float: right;
-    padding: 0 30px 0 0;
-  }
-
-  li {
-    display: inline-block;
-    list-style-type: none;
-    visibility: hidden;
-    justify-content: space-around;
-  }
-
   i {
     display: table-cell;
     top: 0;
     transition: top ease 200ms;
-
   }
 
   i:hover {
