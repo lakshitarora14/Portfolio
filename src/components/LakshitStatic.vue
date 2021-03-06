@@ -34,7 +34,7 @@
     font-weight: bolder;
 
     &__one {
-      font-family: "Open Sans";
+      font-family: "Open Sans",serif;
       color: #64FFDA;
       font-size: 1.5vw;
     }
@@ -67,7 +67,7 @@
   }
 
   .intro-small {
-    font-family: "Open Sans";
+    font-family: "Open Sans",serif;
     color: #8892b0;
     text-align: justify-all;
     padding-top: 2vw;

@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="about__right">
-        <img src="../assets/profileImage.jpg" class="lakshit" height="300px" width="300px">
+        <img src="../assets/profileImage.jpg" class="lakshit">
         <div class="outline"></div>
       </div>
     </div>
@@ -81,11 +81,13 @@
     }
 
     .lakshit {
+      height: 22vw;
+      width: 22vw;
       cursor: pointer;
       z-index: 1;
       position: absolute;
-      outline: 100px solid rgba(50, 180, 149, 0.5);
-      //outline-offset: -200px;
+      outline: 11vw solid rgba(50, 180, 149, 0.5);
+      outline-offset: -200px;
     }
 
     .lakshit:hover {
@@ -98,10 +100,10 @@
     .outline {
       position: relative;
       border: 2px solid $lightColor;
-      height: 300px;
-      width: 300px;
-      left: 15px;
-      top: 15px;
+      height: 22vw;
+      width: 22vw;
+      left: 1vw;
+      top: 1vw;
       transition: top, left ease 400ms, 400ms;
     }
 
