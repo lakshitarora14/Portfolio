@@ -12,7 +12,7 @@
           websites, applications, or anything in between. My goal is to always
           build products that provide pixel-perfect, performant experiences.
           <br><br>
-          I am currently working at <a href="https://www.coviam.com/" target="_blank">Coviam Technologies</a> where I
+          I am currently working at <a href="https://www.quinbay.com/" target="_blank">Quinbay</a> where I
           work on a wide variety of interesting and meaningful projects on a daily basis.
           <br><br>
           Here are a few technologies I've been working with recently:
@@ -84,8 +84,8 @@
       cursor: pointer;
       z-index: 1;
       position: absolute;
-      outline: 200px solid rgba(50, 180, 149, 0.5);
-      outline-offset: -200px;
+      outline: 100px solid rgba(50, 180, 149, 0.5);
+      //outline-offset: -200px;
     }
 
     .lakshit:hover {
