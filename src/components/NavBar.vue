@@ -13,7 +13,7 @@
       <router-link to="/about" class="route">
         <i class="fas fa-user fa-lg"></i>
       </router-link>
-      <a href="https://drive.google.com/open?id=1IZNCMK7dCITffbrvi9_s8_6yIUXx4OK7" target="_blank">
+      <a href="https://drive.google.com/file/d/1x16Pf2L04EQl7R9oIc8L7toeapkJeCjc/view?usp=sharing" target="_blank">
         <i class="fas fa-address-card fa-lg"></i>
       </a>
       <router-link to="/contact-me" class="route">
