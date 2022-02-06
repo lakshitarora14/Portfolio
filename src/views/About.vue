@@ -17,14 +17,14 @@
           <br><br>
           Here are a few technologies I've been working with recently:
           <ul class="ul-left">
-            <li>Springboot</li>
-            <li>Java</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
             <li>HTML & (S)CSS</li>
           </ul>
           <ul class="ul-right">
-            <li>vue.js</li>
-            <li>JavaScript (ES6+)</li>
-            <li>NoSQL</li>
+            <li>Vue.js</li>
+            <li>Java</li>
+            <li>Next</li>
           </ul>
           <br><br>
           Visit my <a href="https://www.linkedin.com/in/lakshitarora/" target="_blank">linkedin</a>
